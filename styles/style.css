@@ -75,6 +75,7 @@ p i {
 
 /* put CSS-styles here */
 
+
 /* header */
 
 .header {
@@ -152,11 +153,11 @@ p i {
 }
 
 
-.header .mobile-nav-button {
-  position: absolute;
-  left: 8vw;
+/* .header  */.mobile-nav-button {
+  position: fixed;
+  right: 8vw;
   top: 44px;
-  color: #fff;
+  color: rgb(134, 230, 209);
   font-size: 28px;
   display: none;
   cursor: pointer;
