@@ -72,9 +72,7 @@ p i {
 
 /* end common */
 
-
 /* put CSS-styles here */
-
 
 /* header */
 
@@ -82,7 +80,6 @@ p i {
   position: relative;
   height: 517px;
 }
-
 
 .header .title {
   position: absolute;
@@ -92,11 +89,11 @@ p i {
   text-align: center;
 }
 
-.header .title h1, .header .title p {
+.header .title h1,
+.header .title p {
   color: #fff;
   white-space: nowrap;
 }
-
 
 .header .video-wrapper {
   position: absolute;
@@ -113,7 +110,6 @@ p i {
   min-width: 100%;
 }
 
-
 .header .logo-wrapper {
   position: absolute;
   left: 2.5vw;
@@ -127,13 +123,11 @@ p i {
   right: 2.5vw;
 }
 
-
 .header .nav-bar-links {
   margin: 35px auto;
   text-align: right;
   letter-spacing: 1px;
 }
-
 
 .header .nav-bar-link {
   color: #fff;
@@ -146,14 +140,12 @@ p i {
   text-decoration: underline;
 }
 
-
 .header .divider {
   color: #fff;
   margin: 0 10px;
 }
 
-
-/* .header  */.mobile-nav-button {
+.header .mobile-nav-button {
   position: fixed;
   right: 8vw;
   top: 44px;
@@ -161,10 +153,10 @@ p i {
   font-size: 28px;
   display: none;
   cursor: pointer;
+  z-index: 1;
 }
 
 /* sections */
-
 
 /* 
 
@@ -173,9 +165,8 @@ p i {
 .welcome {
   text-align: center;
   background-color: #eee;
-  padding: 82px 0 65px
+  padding: 82px 0 65px;
 }
-
 
 .welcome .icons {
   margin-top: 64px;
@@ -186,7 +177,6 @@ p i {
   width: 33%;
   vertical-align: top;
 }
-
 
 .welcome .icon h4 {
   color: #007765;
@@ -206,31 +196,27 @@ p i {
 
 /* problem */
 
-
 .problem {
   text-align: center;
   padding: 90px 0 120px;
 }
 
-
 .problem h2 {
   margin-bottom: 74px;
 }
 
-
-.problem p, .problem h5 {
+.problem p,
+.problem h5 {
   margin-bottom: 0.714em;
   color: #565656;
 }
 
-
 .problem p.sub {
   font-size: 16px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 /* tech */
-
 
 .tech {
   background-color: #eee;
@@ -238,16 +224,13 @@ p i {
   text-align: center;
 }
 
-
 .tech h2 {
   margin-bottom: 40px;
 }
 
-
 .tech h6 {
   margin-bottom: 90px;
 }
-
 
 .tech .icon {
   margin-bottom: 67px;
@@ -259,14 +242,12 @@ p i {
   width: 33%;
 }
 
-
 .tech .img-icon img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
   transform: scale(0.8);
 }
-
 
 .tech .dir-right p {
   direction: rtl;
@@ -278,28 +259,23 @@ p i {
   direction: ltr;
 }
 
-
 .tech .icon .description {
   display: inline-block;
   vertical-align: top;
   width: 66%;
 }
 
-
 .tech p.title {
   color: #007765;
   margin-bottom: 0.5em;
 }
 
-
 /* The Team */
-
 
 .team {
   text-align: center;
   padding: 76px 0 96px;
-} 
-
+}
 
 .team h2 {
   margin-bottom: 10px;
@@ -308,7 +284,6 @@ p i {
 .team h6 {
   margin-bottom: 70px;
 }
-
 
 .team .photos-wrapper {
   display: flex;
@@ -339,7 +314,6 @@ p i {
   color: #565656;
 }
 
-
 /* Footer */
 
 .footer {
@@ -347,7 +321,6 @@ p i {
   background-color: #3d3d3d;
   min-height: 261px;
 }
-
 
 .social-icons {
   padding: 50px 0;
@@ -371,9 +344,7 @@ p i {
   color: #3d3d3d;
   font-size: 30px;
   vertical-align: middle;
-} 
-
-
+}
 
 .footer-text {
   width: 500px;
@@ -383,9 +354,7 @@ p i {
   color: #fff;
 }
 
-
 /* @media */
-
 
 @media (max-width: 1280px) {
   h2 {
@@ -404,8 +373,6 @@ p i {
     max-width: 95%;
   }
 }
-
-
 
 @media (max-width: 1080px) {
   h2 {
@@ -477,10 +444,7 @@ p i {
   .tech .dir-left p {
     text-align: center;
   }
- 
 }
-
-
 
 @media (max-width: 767px) {
   h1 {
@@ -570,10 +534,8 @@ p i {
   }
 }
 
-
-
 @media (max-width: 639px) {
   .inner {
     max-width: 90%;
   }
-} 
+}
